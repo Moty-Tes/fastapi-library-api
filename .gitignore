@@ -1,0 +1,21 @@
+# .gitignore - Files Git should NOT track
+
+# Environment variables (contains secrets!)
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
